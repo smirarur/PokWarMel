@@ -1,0 +1,16 @@
+﻿@model MarvelApi.Model.Characters
+<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+    <div class="single-service">
+        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+            <img src="@Model.Avatar" />
+        </div>
+        @* ajouter une image des superheros *@
+        <h2> @Html.DisplayFor(modelItem => @Model.name) </h2>
+        @*  description des characteres a afficher des la vue créer avec un controller  *@
+        @*<p>@Html.DisplayFor(modelItem => @Model.description)</p>*@
+
+    </div>
+</div>
+@
+
+
